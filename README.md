@@ -1,7 +1,5 @@
-echo "# yt2mp3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/aruncs31s/yt2mp3.git
-git push -u origin main
+# Installing
+apt update
+apt upgrade
+apt install git
+git clone https://github.com/aruncs31s/yt2mp3
