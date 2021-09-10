@@ -1,8 +1,8 @@
 #!/bin/bash
 apt install youtube-dl
 
-cp y2mp3.sh $PREFIX/bin
+cp yt2mp3.sh $PREFIX/bin/
 
-chmod +x $PREFIX/bin/y2mp3.sh
+chmod +x $PREFIX/bin/yt2mp3
 
 clear
