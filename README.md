@@ -9,5 +9,6 @@ cd yt2mp3 && chmod +x install.sh
 ./install.sh
 ```
 #usage
+```
 yt2mp3 <youtubelink>
-  
+```
