@@ -1,7 +1,13 @@
 #!/bin/bash
-apt install youtube-dl
+apt update -y
+clear
+apt install curl -y
+c
+curl -L https://raw.githubusercontent.com/OzakIOne/termux-youtube-dl/v1.0.1/install.sh | bash
 
-cp yt2mp3.sh $PREFIX/bin/
+clear
+
+cp yt2mp3 $PREFIX/bin/
 
 chmod +x $PREFIX/bin/yt2mp3
 
